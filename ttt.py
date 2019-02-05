@@ -129,7 +129,7 @@ def replay():
 print('Welcome to Tic Tac Toe!')
 
 global f
-f = [' ',' ',' ',' ',' ',' ',' ',' ',' ', ' ']
+f = [' ']*10
 player_t = [1,2,1,2,1,2,1,2,1]
 
 on = True
